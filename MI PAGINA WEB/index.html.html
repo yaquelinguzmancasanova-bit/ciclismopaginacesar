@@ -1,0 +1,184 @@
+<!DOCTYPE html> 
+<html lang="es"> <!-- Inicio del documento HTML y especifica que está en español -->
+
+<head> <!-- Inicio de la parte de configuración -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8"> <!-- Permite usar acentos y caracteres especiales -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que funcione bien en celular -->
+<title>MUNDO DEL CICLISMO</title> <!-- Título que aparece en la pestaña del navegador -->
+
+<style> /* Inicio de estilos CSS */
+
+/* ===== ESTILO GENERAL ===== */
+body{ /* Aplica estilo a todo el cuerpo de la página */
+    background-image: url("cesar.jpg");
+    background-size:cover;
+    background-position:center;
+    font-family: 'Bebas Neue', sans-serif;/* Cambia el tipo de letra */
+    font-size:20px;
+    margin: 0; /* Quita el margen que agrega el navegador por defecto */
+    background-color:white; /* Color del Fondo de Todo el cuerpo */
+}
+
+/* ===== ENCABEZADO ===== */
+header{ /* Estilo del encabezado */
+    font-family:'orbitron', sans-serif;
+    background-color:black;
+    background-image: url("logo.webp"); /* Imagen de fondo */
+    background-size:cover; /* Ajusta la imagen al tamaño del encabezado */
+    background-position: center; /* Centra la imagen */
+    color:#00FFFF; /* Color del texto */
+    text-shadow:0 0 5px #00F0FF,
+                0 0 10px #00F0FF,
+                0 0 20px #00F0FF,
+                0 0 40px #00F0FF;
+               
+    text-align:center; /* Centra el texto */
+    padding: 150px 100px; /* Espacio interno arriba/abajo y lados */
+}
+
+/* ===== MENÚ ===== */
+nav{ /* Barra de navegación */
+    background-color:#FF0000; /* Fondo negro */
+    text-align: left; /* coloca a  la Izquierda los enlaces */
+}
+
+nav a{ /* Estilo de los enlaces del menú */
+    color:black; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    padding: 30px; /* Espacio interno */
+    display: inline-block; /* Permite aplicar padding correctamente */
+}
+
+nav a:hover{ /* Cuando pasamos el mouse */
+    background-color:skyblue; /* Cambia fondo */
+   
+}
+
+    .dropdown{ /* Contenedor del menú desplegable */
+    display: inline-block; /* Permite que esté en línea */
+    position: relative; /* Necesario para posicionar el submenú */
+}
+
+
+.dropdown-content a{ /* Enlaces del submenú */
+    
+}
+
+.dropdown:hover .dropdown-content{ /* Cuando pasamos el mouse */
+    display: block; /* Se muestra el submenú */
+}
+   
+
+
+/* ===== CONTENIDO PRINCIPAL ===== */
+.contenedor{ /* Contenedor general */
+    display: flex; /* Coloca elementos uno al lado del otro */
+    padding: 25px; /* Espacio interno */
+}
+
+main{ /* Parte principal */
+    font-size:25px;
+    color:white;
+    width: 60%; /* Ocupa 70% del espacio */
+}
+
+aside{ /* Barra lateral */
+    color:white;
+    font-size:40px;
+    width: 40%; /* Ocupa 30% del espacio */
+    text-align: center; /* Centra el contenido */
+}
+
+aside img{ /* Imágenes de la barra lateral */
+    width: 200px; /* Ancho */
+    height:200px; /* Alto */
+    border-radius: 20%; /* Hace la imagen circular */
+    border:9px solid#00FFFF;
+    box-shadow:0 0 5px #00FFFF,
+               0 0 10px #00FFFF,
+               0 0 20px #00FFFF,
+               0 0 40px #00FFFF,
+               0 0 80px #00FFFF;
+    display: block; /* Hace que esté en su propia línea */
+    margin: 15px auto; /* Espacio y centrado */
+}
+
+/* ===== PIE DE PÁGINA ===== */
+footer{ /* Estilo del pie de página */
+    background-color: cyan; /* Fondo negro */
+    color: black; /* Texto blanco */
+    text-align: center; /* Centra texto */
+    padding: 50px; /* Espacio interno */
+}
+  video{
+       border:9px solid cyan;
+       box-shadow:0 0 5px cyan,
+                  0 0 10px cyan,
+                  0 0 20px cyan,
+                  0 0 40px cyan,
+                  0 0 80px cyan;
+
+</style> <!-- Fin de estilos -->
+</head> <!-- Fin de la parte de configuración -->
+
+<body> <!-- Inicio del contenido visible -->
+
+<header> <!-- Encabezado -->
+    <h1>EL MUNDO DEL CICLISMO</h1> <!-- Nombre del negocio -->
+    <h3>CONOCE EL MEJOR DEPORTE</h3> <!-- Eslogan -->
+</header>
+
+<nav> <!-- Menú de navegación -->
+       <a href="marcas conocidas.html" target="_blank">MARCAS</a> <!-- Opción del menú -->             
+      <a href="historia de ciclismo.html"target="blank_">HISTORIA</a> <!-- Opción del menú -->     
+    
+
+    <div class="dropdown"> <!-- Menú desplegable -->
+        <a href="GALERIA.html"target="_blank">GALERIA</a> <!-- Opción principal -->
+       </div>
+       
+    <a href="FORMULARIO.html"target="_blank">FORMULARIO</a> <!-- Opción del menú -->
+    <a href="ciclistas.html"target=_blank">Ciclistas conocidos</a> <!-- Opción del menú -->
+
+</nav>
+
+<div class="contenedor"> <!-- Contenedor principal -->
+
+    <main> <!-- Sección principal -->
+        <h2>CONOCE EL MUNDO DEL CICLISMO</h2> <!-- Título -->
+        <p>Si eres nuevo en el mundo del ciclismo no te preocupes aqui conoceras y aprenderas todo lo nesesario pra        comenzar en este mundo del ciclismo</p>
+        <p>AQUI CONOCERAS UNA NUEVA Y MARAVILLOSA EXPERIENCIA</p>
+        <br><br><hr>                  <!--Agregamos espacios y la barra horizontal-->
+        <p> CONTAMOS CON TODA LA INFORMACION NESESARIA PARA QUE VIVAS AL MAXIMO EN ESTE MUNDO</p>
+        <p>VAMOS SE QUE PUEDES.....</p>
+        <video width="350" height="350" controls>
+        <source src="BIKE.mp4">
+       </video>
+    </main>
+
+    <aside> <!-- Barra lateral -->
+        <h3>downhill</h3>
+        <img src="downhill.AVIF"> <!--Agregamos las imagenes de la barra lateral-->
+
+        <h3>Ruta</h3>
+        <img src="ciclismo.jpg">
+
+        <h3>MTB</h3>
+        <img src="imagendebici.jpg">
+    </aside>
+
+</div>
+
+<footer> <!-- Pie de página -->
+    <h2>AUDIO</h2>
+    <audio controls>
+    <source src="AUDIO.mp3"> AUDIO</audio>
+    <p>para conocer mas contacta por medio de este # (9902321122)</p>
+    <p>POR PASAR CON KIKE</p>
+     
+</footer>
+
+</body> <!-- Fin del contenido visible -->
+</html> <!-- Fin del documento -->
